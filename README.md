@@ -133,10 +133,12 @@ AWS CLI is installed for the project via the bash script [```./bin/install_aws_c
 
 We can check if our AWS credentials is configured correctly by running the following AWS CLI command:
 
-```aws sts get-caller-identity```
+```sh
+aws sts get-caller-identity
+```
 
 If it is succesful you should see a json payload return that looks like this:
-```bash
+```json
 {
     "UserId": "AIEAVUO15ZPVHJ5WIJ5KR",
     "Account": "123456789012",
