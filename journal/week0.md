@@ -1,9 +1,8 @@
 # Terraform Beginner Bootcamp 2023 - Week 0
 
-- [Semantic Versioning](#---semantic-versioning)
+  * [Semantic Versioning](#semantic-versioning)
   * [Install the Terraform CLI](#install-the-terraform-cli)
-   
-   - [Considerations with the Terraform CLI changes](#considerations-with-the-terraform-cli-changes)
+    + [Considerations with the Terraform CLI changes](#considerations-with-the-terraform-cli-changes)
     + [Considerations for Linux Distribution](#considerations-for-linux-distribution)
     + [Refactoring into Bash Scripts](#refactoring-into-bash-scripts)
       - [Shebang Considerations](#shebang-considerations)
@@ -28,6 +27,9 @@
       - [Terraform State Files](#terraform-state-files)
       - [Terraform Directory](#terraform-directory)
   * [Issues with Terraform Cloud and Gitpod Workspace](#issues-with-terraform-cloud-and-gitpod-workspace)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ## Semantic Versioning 
 
