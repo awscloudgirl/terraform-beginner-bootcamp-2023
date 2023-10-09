@@ -28,9 +28,6 @@
       - [Terraform Directory](#terraform-directory)
   * [Issues with Terraform Cloud and Gitpod Workspace](#issues-with-terraform-cloud-and-gitpod-workspace)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ## Semantic Versioning 
 
 This project is going utilize semantic versioning for its tagging. [semver.org](http://semver.org)
