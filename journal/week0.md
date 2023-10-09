@@ -2,6 +2,8 @@
 
 - [## Semantic Versioning :mage:](#---semantic-versioning--mage-)
   * [Install the Terraform CLI](#install-the-terraform-cli)
+   
+   - [Considerations with the Terraform CLI changes](#considerations-with-the-terraform-cli-changes)
     + [Considerations for Linux Distribution](#considerations-for-linux-distribution)
     + [Refactoring into Bash Scripts](#refactoring-into-bash-scripts)
       - [Shebang Considerations](#shebang-considerations)
