@@ -41,7 +41,8 @@ MAJOR.MINOR.PATCH, eg. `1.0.1`
 
 ## Install the Terraform CLI
 
-Considerations with the Terraform CLI changes
+### Considerations with the Terraform CLI changes
+
 The Terraform CLI installation instructions have changed due to gpg keyring changes. So we needed refer to the latest install CLI instructions via Terraform Documentation and change the scripting for install.
 
 [Install Terraform CLI](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)
