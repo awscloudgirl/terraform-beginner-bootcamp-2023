@@ -29,7 +29,7 @@
       - [Terraform Directory](#terraform-directory)
   * [Issues with Terraform Cloud and Gitpod Workspace](#issues-with-terraform-cloud-and-gitpod-workspace)
 
-## Semantic Versioning :mage:
+## Semantic Versioning 
 
 This project is going utilize semantic versioning for its tagging. [semver.org](http://semver.org)
 
