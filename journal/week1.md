@@ -1,4 +1,3 @@
-
 # Terraform Beginners Bootcamp 2023 - Week 1
 
 ## Root Module Structure
@@ -58,4 +57,3 @@ Terraform automatically loads variable definitions from various sources in a spe
 - Files named exactly terraform.tfvars.json or terraform.tfvars.
 - This sequence ensures that variables are loaded according to their designated importance and specificity.
 
->>>>>>> origin/19-create-toc-readme
