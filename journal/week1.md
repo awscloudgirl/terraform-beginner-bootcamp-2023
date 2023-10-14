@@ -137,3 +137,41 @@ In terraform there is a special variable called path that allows us to reference
 ```
 resource "aws_s3_object" "index_html" { bucket = aws_s3_bucket.website_bucket.bucket key = "index.html" source = "${path.root}/public/index.html" }
 ```
+
+## Correcting Tags
+
+[How to delete local and remote tags on Git](https://devconnected.com/how-to-delete-local-and-remote-tags-on-git/)
+
+How to remove both local and remote tags in Git
+
+### Locally delete a tag:
+```bash
+git tag -d <tag_name>
+```
+### Remotely delete a tag:
+
+```bash
+git push --delete origin <tag_name>
+```
+### Fixing Previous Tags (non-HEAD tags):
+
+Checkout the commit you want to re-tag:
+
+```bash
+git checkout <commit_SHA>
+```
+### Obtain the commit SHA from your GitHub commit history.
+
+Retag the commit with the new tag:
+```bash
+git tag <new_tag_name>
+```
+### Push the new tag to the remote repository:
+
+```bash
+git push --tags
+```
+Switch back to the main branch:
+```bash
+git checkout main
+```
