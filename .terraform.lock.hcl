@@ -5,6 +5,6 @@ provider "local.providers/local/terratowns" {
   version     = "1.0.0"
   constraints = "1.0.0"
   hashes = [
-    "h1:whhSDI+d3Lo/KhyKbMo9cu7TdY6ov1qTcwqANZRnSYc=",
+    "h1:TiQzF3DXU43PE8jFoMm7jXH3hRtSuqZHkl5wK6f8Qno=",git 
   ]
 }
